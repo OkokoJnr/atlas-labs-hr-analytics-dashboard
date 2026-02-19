@@ -53,7 +53,7 @@ The solution was built using a dimensional modeling approach with a centralized 
 + Separate measures table for DAX logic
 
 + Context-aware calculations to manage employee vs review-level granularity
-
+<br>
 The essence for this modelling approach is to ensures scalable analytics, optimized filter behavior, and accurate KPI reporting.
 
 
@@ -62,7 +62,7 @@ The essence for this modelling approach is to ensures scalable analytics, optimi
 
 ![Employee Overview](./images/Overview.PNG)
 
-## It could be seeing that over 60% of employee are below the age of 30 while about  15% of employees are over the age of 40. 
+## It could be seeing that over 60% of employee are below the age of 30 while about  15% of employees are over the age of 40. <br>
 In terms of earning Employees below age of 30 earns an average of $ 76000 while older employees earns high average salary of over $180,000
 
 
@@ -78,7 +78,7 @@ In terms of earning Employees below age of 30 earns an average of $ 76000 while 
 
 ## There was higher attrition amongst frequent travelers and amongst new employeees
 
-![Attrition](./images/Attrition.PNG)
+![Attrition](./images/Attrition.PNG) <br>
 Sales representative have a higher attrition rate amongst all job roles
 
 ![Sales Representative](./images/Sales%20-%20Sales%20Reps.PNG)
@@ -91,3 +91,38 @@ Sales representative have a higher attrition rate amongst all job roles
 + Carryout a salary equity audit across age groups and ethnic group, and implement bonuses and allowances
 
 + Review Travel plans policy and benefits
+
+# Methodology
+The project followed a structured BI workflow:
++	Data ingestion & cleaning
++	Dimensional modeling
++	Root cause exploration
++	Executive-level visualization design
++	Business recommendation development
+
+________________________________________
+ ## Technical Skills Demonstrated
+Power BI
++	Data modeling (Star Schema)
++	Relationship management
++	Interactive dashboard design
++	Page navigation & UX optimization
+DAX
++	CALCULATE()
++	USERELATIONSHIP()
++	Context transition
++	Conditional logic (IF(), ISBLANK())
++	Time-based analysis
++	KPI percentage formatting
+Power Query
++	Data transformation
++	Conditional column creation
++	Data type validation
+
+    For full interactivity, download the HR Analytics.pbix file in this repository
+
+# What Next
++ Dive deeper  into the analysis using SQL and explore more details about the groups of employee
+
+# Okoko Godwin
+# Data Analyst || BI 
