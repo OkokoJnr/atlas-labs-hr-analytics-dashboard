@@ -39,7 +39,7 @@ The HR leadership needs answers to:
 
 
 # Data & Modeling Approach
-![Data Modelling Approach](./documentation/images/Modelling%20(Snowflak).PNG)
+![Data Modelling Approach](./images/Modelling%20(Snowflak).PNG)
 
 
 The solution was built using a dimensional modeling approach with a centralized fact table (FactPerformanceRating) and supporting dimensions (DimEmployee, DimDate, DimEducationLevel, etc.).
@@ -55,3 +55,27 @@ The solution was built using a dimensional modeling approach with a centralized 
 + Context-aware calculations to manage employee vs review-level granularity
 
 The essence for this modelling approach is to ensures scalable analytics, optimized filter behavior, and accurate KPI reporting.
+
+
+# KEY FINDINGS
+## There was an attrition rate of 16%; meaning that out of 100 employees, 16 are likely to leave. This should be of a moderate concern
+
+![Employee Overview](./images/Overview.PNG)
+
+## It could be seeing that over 60% of employee are below the age of 30 while about  15% of employees are over the age of 40. 
+In terms of earning Employees below age of 30 earns an average of $ 76000 while older employees earns high average salary of over $180,000
+
+
+![Employee Demographics](./images/Demographics.PNG)
+
+##  Built a dynamic individual performance tracker. This would help to determine the performance of individual employee. A selected employee taht received a rating of "Needs Improvement" while showing a declining satisfaction signals risk of future attrition
+
+![Performance Tracker](./images/Performance%20Tracker.PNG)
+
+## Attrition was higher amongst employees below age of 30 and least amongst employees within age 30 - 40. 
+
+![Attrition Across Demographics](./images/Attrition%20Across%20Demographics.PNG)
+
+## There was higher attrition amongst frequent travelers and amongst new employeees
+
+![Attrition](./images/Attrition.PNG)
