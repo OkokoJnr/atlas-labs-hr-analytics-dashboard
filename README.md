@@ -37,4 +37,21 @@ The HR leadership needs answers to:
 
     The challenge was transforming the raw CSV exports into a structured analytical model of answering executive-level workforce questions.
 
-    
+
+# Data & Modeling Approach
+![Data Modelling Approach](./documentation/images/Modelling%20(Snowflak).PNG)
+
+
+The solution was built using a dimensional modeling approach with a centralized fact table (FactPerformanceRating) and supporting dimensions (DimEmployee, DimDate, DimEducationLevel, etc.).
+
++ Star-schema inspired architecture
+
++ One-to-many relationships
+
++ Dedicated Date dimension for time intelligence
+
++ Separate measures table for DAX logic
+
++ Context-aware calculations to manage employee vs review-level granularity
+
+The essence for this modelling approach is to ensures scalable analytics, optimized filter behavior, and accurate KPI reporting.
