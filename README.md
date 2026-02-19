@@ -79,3 +79,15 @@ In terms of earning Employees below age of 30 earns an average of $ 76000 while 
 ## There was higher attrition amongst frequent travelers and amongst new employeees
 
 ![Attrition](./images/Attrition.PNG)
+Sales representative have a higher attrition rate amongst all job roles
+
+![Sales Representative](./images/Sales%20-%20Sales%20Reps.PNG)
+# Business Recommendations
+
++ There should be a continous structured performance improvement plans
+
++ Conduct deeper analysis across sales department with focus on sales representatives
+
++ Carryout a salary equity audit across age groups and ethnic group, and implement bonuses and allowances
+
++ Review Travel plans policy and benefits
